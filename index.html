@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Logo Roulette</title>
+<meta name="description" content="Spin a chaotic design brief: a brand name, a thing and two clashing hex codes. Syesame and Ryce will judge it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Caveat:wght@600;700&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="diary">
+ <div class="tab">LOGO ROULETTE · VOL. 1</div>
+ <div class="book">
+  <div class="cover"><div class="page">
+   <div class="rings"></div>
+   <div class="stamp hand">page 01</div>
+   <i class="sp" style="top:96px;right:28px">✦</i>
+   <i class="sp" style="top:300px;left:6px;animation-delay:.8s">✦</i>
+   <i class="sp s" style="top:11%;left:3%;animation-delay:0.4s">✦</i>
+   <i class="sp s" style="top:27%;right:3%;animation-delay:1.3s">✦</i>
+   <i class="sp s" style="top:63%;right:4%;animation-delay:0.9s">✦</i>
+   <i class="sp s" style="top:88%;left:5%;animation-delay:1.7s">✦</i>
+   <h1>Logo<span>Roulette</span></h1>
+   <p class="hand lead">a chaotic design brief generator</p>
+   <div class="row"><div class="pic sye" id="pS"><img alt="Syesame" src="images/syesame.png"></div><div class="say"><b>Syesame</b><span id="sy"></span></div></div>
+   <div class="row r"><div class="pic ryce" id="pR"><img alt="Ryce" src="images/ryce.png"></div><div class="say"><b>Ryce</b><span id="ry"></span></div></div>
+   <div class="steps"><span class="strip">instructions</span>
+   <ol class="how">
+    <li><b>Spin</b> to get a brief.</li>
+    <li><b>Lock</b> any part you like (tap it).</li>
+    <li><b>Design</b> the logo yourself, in your own tool.</li>
+   </ol></div>
+   <div class="reels">
+    <button class="reel" aria-pressed="false"><small>name</small><div class="v"></div><small>&nbsp;</small></button>
+    <button class="reel" aria-pressed="false"><small>thing</small><div class="v"></div><small>&nbsp;</small></button>
+    <button class="reel" aria-pressed="false"><small>colour</small><div class="v"></div><small>&nbsp;</small></button>
+   </div>
+   <button class="go" id="go">SPIN</button>
+   <div class="card hid" id="card"><div class="tape"></div><div id="brief"></div></div>
+   <div class="acts hid" id="acts"><button class="alt" id="font">Font direction?</button><button class="alt" id="copy">Copy brief</button></div>
+  </div></div>
+  <button class="lid" id="lid" aria-label="Open the diary"><span class="band"></span><span class="big">Logo<br>Roulette</span><span class="hand">tap to open ♡</span></button>
+ </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
